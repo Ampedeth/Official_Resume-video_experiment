@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <title>My Resume(video experiment)</title>
+        <link rel="icon" type="images/x-icon" href="./IMG/photo_2023-11-22_08-38-29.png" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--Wrapper-->
+            <div>
+                <!--Main Info-->
+                <div class="mainInfo">
+                    
+                    <!--Adding videos-->
+                    <div class="videoContainer" id="videoContainerId">
+                        <video id="rickRollVideo"  class="video">
+                            <source src="./IMG/Rick Rolled (Short Version).mp4" type="video/MP4">
+                        </video>
+                    </div>
+
+                    <!--About me-->
+                    <div class="aboutMe">
+                        <h2 class="aboutMeHeaders">Student</h2>
+                        <h1 class="name">Anton Hoviadovskyi</h1>
+                        <p class="aboutMeInfo">A student with deep computer skills and extensive experience working with various technology platforms 
+                            such as Azure Form Recognizer and GitHub. I have a high level of knowledge in programming and have successfully
+                            implemented several home projects that not only demonstrate my technical competence,
+                            but also demonstrate my dedication to information technology. 
+                            Although I do not yet have formal work and internship experience, I am confident in my willingness to use my knowledge
+                            and passion for working with information technology to achieve the company's goals. I believe that my strong motivation,
+                            desire to develop and constantly improve my skills will allow me to become a valuable asset for the team.
+                            My goal is not only to increase my technical skills, but also to inspire new achievements and contribute to the mission and success of the company.
+                        </p>
+                        <h2 class="aboutMeHeaders">Hobbys</h2>
+                        <p class="hobby">My hobbies include running, sports, computer games and playing the guitar. For me, running is not only physical activity,
+                            but also a way to relax and recharge. Computer games are not only entertainment, but also a source of inexhaustible creativity.
+                            In my free time, I like to explore virtual worlds and solve problems. Playing the guitar became for me not only a musical passion,
+                            but also a way of expressing emotions and creativity. These hobbies have become an integral part of my life, giving joy and satisfaction.
+
+                        </p>
+                    </div>
+                    <!--Education 1 -->
+                    <div class="educationContainer">
+                        <h3 class="educationHeader">Education</h3>
+                        <h4 class="educationPleace">Berezniv Lyceum №2</h4>
+                        <p class="educationPeriod">September 2011 - June 2021</p>
+                        <p>-----------------------------------------------------------------------------------------------------------</p>
+                    <!--Education 2 -->
+                        <h4 class="educationPleace">Professional College of Engineering, Management and Land Management of NAU</h4>
+                        <h5 class="educationOccupation">Software engineering</h5>
+                        <p class="educationPeriod">September 2021 - Current time</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Sidebar-->
+            <aside class="sidebar">
+                <!--Adding Photo-->
+                <img src="./IMG/photo_2023-11-08_08-39-53.jpg" alt="My photo" width="350px" class="photo1" id="img1" ></img>
+                <img src="./IMG/photo_2023-11-14_10-17-25.jpg" alt="My photo" width="350px" class="photo" id="img2"></img>
+                <img src="./IMG/photo_2023-11-12_18-24-51.jpg" alt="My photo" width="350px" class="photo" id="img3"></img>
+                <img src="./IMG/image2.jpg" alt="My photo" width="350px" class="photo" id="img4"></img>
+                <img src="./IMG/image3.jpg" alt="My photo" width="350px" class="photo" id="img5"></img>
+                <img src="./IMG/image1.jpg" alt="My photo" width="350px" class="photo" id="img6"></img>
+                <img src="./IMG/photo_2022-09-16_16-24-09.jpg" alt="My photo" width="350px" class="photo" id="img7"></img>
+                <img src="./IMG/photo_2022-11-11_22-06-40.jpg" alt="My photo" width="350px" class="photo" id="img8"></img>
+                <img src="./IMG/photo_2023-06-20_14-00-39.jpg" alt="My photo" width="350px" class="photo" id="img9"></img>
+                <button class="btn" id="btnChangePhoto">Next Photo</button>
+
+
+                <!--Contact Info-->
+                <h2 class="ContantHeader">↓ Contacts Info ↓</h2>
+                <div class="contanctInfoContainer">
+                    <p class="contactItem">
+                        <span class="contactType">Tel:</span>
+                        <a href="tel:+380988083523" class="contactLink">+38 098 808 3523</a>
+                            <br>
+                                <span class="contactType">E-mail:</span>
+                                <a href="gav.fadt@gmail.com" class="contactLink">gav.fadt@gmail.com</a>
+                            <br>
+                                <span class="contactType">Telegram:</span>
+                                <a href="https://t.me/Tranda15" class="contactLink" target="_blank">Anton</a>
+                            <br>
+                                <span class="contactType">Steam:</span>
+                                <a href="https://steamcommunity.com/profiles/76561199374220196/" class="contactLink" target="_blank">Amped</a>
+                            <br>
+                                <span class="contactType">GitHub:</span>
+                                <a href="https://github.com/Ampedeth" class="contactLink" target="_blank">Ampedeth</a>
+                            <br>
+                                <span class="contactType">Extra Info:</span>
+                                <button class="rickRoll" id="rickRoll">Rick Roll</button>
+                    </p>
+                </div>
+                <!--Tech Skills-->
+                <h2 class="techSkillsHeader">↓ Tech Skills ↓</h2>
+                <div class="techSkillsContainer">
+                    <p class="techSkillsItem">
+                        <ul class="techSkillsList">
+                            <li class="techSkillsListItem">
+                                <span class="techSkillsListText">HTML</span>
+                            </li>
+                            <li class="techSkillsListItem">
+                                <span class="techSkillsListText">CSS</span>
+                            </li>
+                            <li class="techSkillsListItem">
+                                <span class="techSkillsListText">JavaScript</span>
+                            </li>
+                            <li class="techSkillsListItem">
+                                <span class="techSkillsListText">Python</span>
+                            </li>
+                            <li class="techSkillsListItem">
+                                <span class="techSkillsListText">GIT</span>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <!--Soft Skills-->
+                <h2 class="softSkillsHeader">↓ Soft Skills ↓</h2>
+                <div class="softSkillsContainer">
+                    <p class="softSkillsItem">
+                        <ul class="softSkillsList">
+                            <li class="softSkillsListItem">
+                                <span class="SkillsListText">Teamwork</span>
+                            </li>
+                            <li class="softSkillsListItem">
+                                <span class="SkillsListText">Problem-solving</span>
+                            </li>
+                            <li class="softSkillsListItem">
+                                <span class="SkillsListText">Communication skills</span>
+                            </li>
+                            <li class="softSkillsListItem">
+                                <span class="SkillsListText">Creativity</span>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <!--Language-->
+                <h2 class="languageHeader">↓ Language ↓</h2>
+                <div class="languageContainer">
+                    <p class="languageItem">
+                        <ul class="languageList">
+                            <li class="languageListItem">
+                                <span class="languageListText">Ukrainian - Native level</span>
+                            </li>
+                            <li class="languageListItem">
+                                <span class="languageListText">English - Intermediate</span>
+                            </li>
+                            <li class="languageListItem">
+                                <span class="languageListText">German - Beginner</span>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </aside> 
+        </div >
+        <script src="./js/js.js"></script>
+    </body>

@@ -1,0 +1,320 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e5e5;
+    padding: 40px;
+} 
+
+.wrapper
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fdf3ea ;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.mainInfo
+{
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.videoContainer
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+}
+
+.video
+{
+    width: 100%;
+    height: 100%;
+}
+
+/*About me*/
+.aboutMeHeaders
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 18px 0;
+} 
+.name
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 28px 0;
+}
+
+.aboutMeInfo
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 525px;
+}
+
+.hobby
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 525px;
+}
+
+.aboutMeInfo
+{
+    margin: 0 0 64px 0;
+}
+
+/*Education*/
+.educationContainer
+{
+    margin: 0 0 108px 0;
+}
+
+.educationHeader
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.educationPleace
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D9BF5;
+    margin: 0 0 12px 0;
+}
+
+.educationOccupation
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 12px 0;
+}
+
+.educationPeriod
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+/*<------Sidebar------>*/
+
+.sidebar
+{
+    width: 370px;
+    background: #fadab9;
+}
+
+.photo1
+{
+    width: 370px;
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.photo
+{
+    width: 370px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 280px;
+    display: none;
+}
+
+#btnChangePhoto
+{
+    margin-left: 50%;
+    height: 20px;
+    transform: translate(-50%, 0);
+    color: #000;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+}
+
+.ContantHeader
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    color: #000000;
+    margin: 48px 0 8px 75px;
+}
+
+.contactItem
+{
+    margin: 0px;
+}
+
+.contanctInfoContainer
+{
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 15px;
+    transform: translate(-50%, 0);
+    color: #000;
+}
+
+.contactType
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    margin-left: 30px;
+}
+
+.contactLink
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color:  #fef7f1;
+}
+
+.rickRoll
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color:  #fef7f1;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+/*Tech Skills*/
+
+.techSkillsHeader
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    color: #000000;
+    margin: 48px 0 8px 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.techSkillsContainer
+{
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 15px;
+    transform: translate(-50%, 0);
+    color: #000;
+}
+
+.techSkillsList
+{
+    margin-left: 30px;
+    padding: 0 0 0 16px;
+    
+}
+
+.techSkillsListText
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    
+}
+
+/*Soft Skills*/
+
+.softSkillsHeader
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    color: #000000;
+    margin: 48px 0 8px 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.softSkillsContainer
+{
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 15px;
+    transform: translate(-50%, 0);
+    color: #000;
+}
+
+.softSkillsList
+{
+    margin-left: 30px;
+    padding: 0 0 0 16px;
+}
+
+/*Language*/
+
+.languageHeader
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    color: #000000;
+    margin: 48px 0 8px 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.languageContainer
+{
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 15px;
+    transform: translate(-50%, 0);
+    color: #000;
+}
+
+.languageList
+{
+    margin-left: 30px;
+    padding: 0 0 0 16px;
+}
